@@ -1,0 +1,55 @@
+﻿<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>Шестерочка</title>
+<style>
+.button {
+   border-top: 1px solid #f79a86;
+   background: #ffb882;
+   background: -webkit-gradient(linear, left top, left bottom, from(#d90707), to(#ffb882));
+   background: -webkit-linear-gradient(top, #d90707, #ffb882);
+   background: -moz-linear-gradient(top, #d90707, #ffb882);
+   background: -ms-linear-gradient(top, #d90707, #ffb882);
+   background: -o-linear-gradient(top, #d90707, #ffb882);
+   padding: 20px 40px;
+   -webkit-border-radius: 9px;
+   -moz-border-radius: 9px;
+   border-radius: 9px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 24px;
+   font-family: Georgia, Serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.button:hover {
+   border-top-color: #ff0000;
+   background: #ff0000;
+   color: #ffffff;
+   }
+.button:active {
+   border-top-color: #ffffff;
+   background: #ffffff;
+   }
+</style>
+<script src="jquery-3.1.1.min.js" type="text/javascript"></script>
+<script src="script1.js" type="text/javascript"></script>
+ </head>
+ <body bgcolor="#f0f28f">
+<p class="button" style="width:80px;" align=center>BIG gradient RED BUTTON</p>
+<p> honestly, so mark, but totally useless </p>
+ <form id="id_form" name = "forma" method="post" align=center>
+  <p>Ты хочешь пройти? Я сомневаюсь, но можешь попробовать. <br>Только введи данные в эти два поля, если пальчики по пути не отсохнут^^</p>
+  
+  <p>Лог:<input name="login"></input><br><br>Пас:<input type="password" name="pass"></input></p>
+  <p><input type ="button" id="send" value ="Была не была"></input></p>
+ </form>
+
+ <p id="answer"></p>
+
+ </body>
+</html>
