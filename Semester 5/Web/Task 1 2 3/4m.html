@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+
+  <link href="code.css" type="text/css" rel="stylesheet" />
+<script>
+		function addition() {
+			var a = parseInt(document.getElementById('a').value);
+			var b = parseInt(document.getElementById('b').value);
+ 
+			if (isNaN(a)==true) a=0;
+			if (isNaN(b)==true) b=0;
+ 
+			var c = a * b;
+			var d = a + b;
+ 
+			document.getElementById('result').innerHTML = "generation: " + a + " * " + b + " = " + c + "! addition: " + a + " + " + b + " = " + d + "!";
+		}
+		</script>
+</head>
+<body  bgcolor="#a2a567">
+  <p onmouseover="this.className='over'" onmouseout="this.className=''" >Shake your feelings and save,</p>
+ <p onmouseover="this.className='over'" onmouseout="this.className=''" >Protect from beauty and brave,</p>
+ <p onmouseover="this.className='over'" onmouseout="this.className=''" >Love is ingoing content</p>
+ <p onmouseover="this.className='over'" onmouseout="this.className=''" >You can just make it, not take</p>
+<img align="center" onmouseover="this.className='over'" onmouseout="this.className=''" width="154" height="105" src="images/22.jpg">
+<br>
+<p></p>
+ <form>
+			<input id="a" type="text" value="1"><br>
+			<input id="b" type="text" value="1"><br>
+			<input type="button" value="Operations" onclick="addition();"><br>
+		</form>
+	<div id="result"></div>
+</body>
+</html>
+

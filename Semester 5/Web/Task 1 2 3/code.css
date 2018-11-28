@@ -1,0 +1,38 @@
+body {
+	font-weight:normal;
+	font-family:'Nimbus Roman No9 L';
+	font-style:normal;
+	text-decoration:none;
+	text-indent:0in;
+	text-align:left;
+	widows:2;
+	font-variant:normal;
+	color:#123456;
+	font-size:12pt;
+}
+a {
+    text-decoration: none;
+    text-transform: none;
+    font-size: medium;
+    font-family: cursive;
+    font-style: italic;
+    color: red;
+}
+
+h1 {
+    font-size: 14px;
+}
+h2 {
+    font-size: 34px;
+}
+img {
+    border: double aqua;
+}
+.over{
+    background-color: red;
+    border-bottom-style: inset;
+
+}
+img.over{
+    width: 800px;
+    height: 600px;
